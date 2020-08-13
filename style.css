@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+.card{
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: #888888;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 10px 9px 10px 10px;
+    font-family: 'Lemonada','cursive';
+
+}
+.tri{
+    clip-path: polygon(100% 46%, 0% 100%, 100% 100%);
+height: 100px;
+width: 60px;
+background-color: yellow;
+width: 100%;
+}
+footer{
+    width: 100%;
+    height: 60px;
+}
+header{
+    background: #c21500;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffc500, #c21500);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc500, #c21500); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+    width: 100%;
+    height: 50px;
+}
+a{
+    list-style: none;
+    text-decoration-line: none;
+    color: red;
+    padding: 3px;
+    font-size: 50px;
+}
+ul{
+    text-align: center;
+}
